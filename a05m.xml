@@ -2,12 +2,11 @@
 <manifest>
 
 	<remote name="a05m-repo-ssh" fetch="ssh://git@github.com/Samsung-Galaxy-A05" clone-depth="1" revision="main" />
-	<remote name="a05m-repo-pub" fetch="https://github.com/Samsung-Galaxy-A05" clone-depth="1" />
+	<remote name="a05m-repo-pub" fetch="https://github.com/Samsung-Galaxy-A05" clone-depth="1" revision="main" />
 	<remote name="LineageOS-git" fetch="https://github.com/LineageOS" clone-depth="1" revision="lineage-23.2" />
 
 	<!-- Dependencies -->
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS-git" />
-	<project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="LineageOS-git" />
 	<project path="hardware/mediatek" name="android_hardware_mediatek" revision="16.0" remote="a05m-repo-pub" />
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="a05m-repo-pub" />
 
