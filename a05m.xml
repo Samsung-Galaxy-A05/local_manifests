@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote name="a05m-repo-ssh" fetch="ssh://git@github.com/Samsung-Galaxy-A05" clone-depth="1" revision="main" />
+	<remote name="a05m-repo-ssh" fetch="git@github.com/Samsung-Galaxy-A05" clone-depth="1" revision="main" />
 	<remote name="a05m-repo-pub" fetch="https://github.com/Samsung-Galaxy-A05" clone-depth="1" />
 	<remote name="LineageOS-git" fetch="https://github.com/LineageOS" clone-depth="1" revision="lineage-23.2" />
 
@@ -10,14 +10,14 @@
 	<remove-project path="hardware/samsung" />
 
 	<!-- Dependencies -->
-	<project path="hardware/mediatek" name="android_hardware_mediatek" revision="16.0" remote="a05m-repo-ssh" />
-	<project path="hardware/samsung" name="android_hardware_samsung" revision="lineage-23.2" remote="a05m-repo-ssh" />
+	<project path="hardware/mediatek" name="android_hardware_mediatek" revision="16.0" remote="a05m-repo-pub" />
+	<project path="hardware/samsung" name="android_hardware_samsung" revision="lineage-23.2" remote="a05m-repo-pub" />
 	<project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="LineageOS-git" />
-	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="a05m-repo-ssh" />
+	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="a05m-repo-pub" />
 
 	<!-- a05m stuffs -->
 	<project path="device/samsung/a05m" name="android_device_samsung_a05m" remote="a05m-repo-ssh" />
-	<project path="device/samsung/a05m-kernel" name="android_device_samsung_a05m-kernel" remote="a05m-repo-ssh" />
+	<project path="device/samsung/a05m-kernel" name="android_device_samsung_a05m-kernel" remote="a05m-repo-pub" />
 	<project path="vendor/samsung/a05m" name="android_vendor_samsung_a05m" remote="a05m-repo-ssh" />
 	<project path="vendor/samsung/a05m-unified" name="android_vendor_samsung_a05m-unified" remote="a05m-repo-ssh" />
 	<project path="vendor/samsung/kpoc_charger" name="android_vendor_samsung_kpoc_charger" remote="a05m-repo-ssh" />
