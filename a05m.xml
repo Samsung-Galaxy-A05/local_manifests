@@ -15,7 +15,7 @@
 	<!--<project path="kernel/configs" name="android_kernel_configs" remote="a05m-repo-pub" /> -->
 
 	<!-- a05m stuffs -->
-	<project path="device/samsung/a05m" name="android_device_samsung_a05m" remote="a05m-repo-ssh" />
+	<project path="device/samsung/a05m" name="android_device_samsung_a05m" remote="a05m-repo-ssh" revision="lineage-23.2" />
 	<project path="device/samsung/a05m-kernel" name="android_device_samsung_a05m-kernel" remote="a05m-repo-pub" />
 	<project path="vendor/samsung/a05m" name="android_vendor_samsung_a05m" remote="a05m-repo-ssh" />
 	<project path="vendor/samsung/a05m-tee" name="android_vendor_samsung_a05m-tee" revision="main" remote="a05m-repo-pub" />
