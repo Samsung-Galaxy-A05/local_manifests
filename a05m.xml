@@ -10,8 +10,8 @@
 
 	<!-- Dependencies -->
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS-git" />
-	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="a05m-repo-pub" />
-	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="a05m-repo-pub" />
+	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS-git" />
+	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS-git" />
 	<project path="kernel/configs" name="android_kernel_configs" remote="a05m-repo-pub" />
 
 	<!-- a05m stuffs -->
@@ -19,7 +19,6 @@
 	<project path="device/samsung/a05m-kernel" name="android_device_samsung_a05m-kernel" remote="a05m-repo-pub" />
 	<project path="vendor/samsung/a05m" name="android_vendor_samsung_a05m" remote="a05m-repo-ssh" />
 	<project path="vendor/samsung/a05m-tee" name="android_vendor_samsung_a05m-tee" revision="main" remote="a05m-repo-pub" />
-	<project path="vendor/samsung/a05m-unified" name="android_vendor_samsung_a05m-unified" remote="a05m-repo-ssh" />
 
 	<!-- a05m camera and offline charging -->
 	<project path="vendor/samsung/kpoc_charger" name="android_vendor_samsung_kpoc_charger" revision="main" remote="a05m-repo-ssh" />
