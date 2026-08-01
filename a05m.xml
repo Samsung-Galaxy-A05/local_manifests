@@ -4,13 +4,14 @@
 	<remote name="a05m-repo-ssh" fetch="ssh://git@github.com/Samsung-Galaxy-A05" clone-depth="1" revision="lineage-24.0" />
 	<remote name="a05m-repo-pub" fetch="https://github.com/Samsung-Galaxy-A05" clone-depth="1" revision="lineage-24.0" />
 	<remote name="LineageOS-git" fetch="https://github.com/LineageOS" clone-depth="1" revision="lineage-23.2" />
+	<remote name="crdroid-git" fetch="https://github.com/crdroidandroid" clone-depth="1" revision="16.0" />
 
 	<!-- Removal -->
 	<!--<remove-project path="kernel/configs" /> -->
 
 	<!-- Dependencies -->
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS-git" />
-	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS-git" />
+	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="crdroid-git" />
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS-git" />
 	<!--<project path="kernel/configs" name="android_kernel_configs" remote="a05m-repo-pub" /> -->
 
