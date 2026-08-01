@@ -20,6 +20,7 @@
 	<project path="device/samsung/a05m-kernel" name="android_device_samsung_a05m-kernel" remote="a05m-repo-pub" />
 	<project path="vendor/samsung/a05m" name="android_vendor_samsung_a05m" remote="a05m-repo-ssh" />
 	<project path="vendor/samsung/a05m-tee" name="android_vendor_samsung_a05m-tee" revision="main" remote="a05m-repo-pub" />
+	<project path="packages/apps/SamsungParts" name="android_packages_apps_SamsungParts" revision="master" remote="a05m-repo-ssh" />
 
 	<!-- a05m camera and offline charging -->
 	<project path="vendor/samsung/kpoc_charger" name="android_vendor_samsung_kpoc_charger" revision="main" remote="a05m-repo-ssh" />
